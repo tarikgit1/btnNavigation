@@ -32,4 +32,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreatePanelView(featureId: Int): View? {
         return super.onCreatePanelView(featureId)
     }
+
+    override fun onAttachedToWindow() {
+        super.onAttachedToWindow()
+    }
 }
