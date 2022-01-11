@@ -23,4 +23,8 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
+
+    override fun hashCode(): Int {
+        return super.hashCode()
+    }
 }
