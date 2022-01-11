@@ -1,6 +1,7 @@
 package com.example.btnnavigation
 
 import android.os.Bundle
+import android.view.View
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -26,5 +27,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun hashCode(): Int {
         return super.hashCode()
+    }
+
+    override fun onCreatePanelView(featureId: Int): View? {
+        return super.onCreatePanelView(featureId)
     }
 }
